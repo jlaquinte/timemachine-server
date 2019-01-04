@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+	<html lang="en-US">
+	<style type="text/css">
+		body{
+			background-color: #ffda1a;
+		}
+		.container{ 
+			text-align:center;
+			margin-top: 120px; 
+		}
+		.test-img{
+			display: block;
+			margin: 40px auto;
+		}
+		.send-text-button{ 
+			display: block;
+			background-color: #0051ba;
+			border-radius: 5px;
+			padding: 20px 25px;
+			font-size: 16px;
+			outline: none;
+			color: #fff;
+			border: none;
+			width: 225px;
+			margin: 35px auto;
+		}
+		.phone-number{
+			width: 225px;
+			padding: 10px 5px;
+			text-align: center;
+			border-radius: 5px;
+			border: none;
+			font-size: 14px;
+			outline: none;
+		}
+		.status{
+			font-family: Arial;
+			color: #0051ba;
+			font-size: 20px;
+		}
+	</style>
+	<head>
+		<title>Test Front End for Ikea Photobooth</title>
+	</head>
+	<body>
+		<div class="container">
+			<img src="" class="test-img">
+			<!-- <button class="aws-button">Send to AWS</button> -->
+			<input type="text" name="phone-number" class="phone-number" placeholder="(only numbers)">
+			<button class="send-text-button">Send Text</button>
+			<p class="status"></p>
+		</div>
+	</body>
+	<script src="js/bundle.js"></script>
+</html>
